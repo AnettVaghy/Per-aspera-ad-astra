@@ -1,0 +1,114 @@
+<!DOCTYPE html><html>
+<head><style type="text/css">ul{list-style-type:none;margin:0;padding:0;}a:link,a:visited{display:block;font-weight:bold;color:#FFFFFF;background-color:black;width:140px;text-align:center;padding:4px;text-decoration:"Book Antiqua";text-transform:uppercase;}a:hover,a:active{background-color:white;font-weight:bold;color:black;}</style><style type="text/css">ul{list-style-type:none;margin:0;padding:0;}a:link,a:visited{display:block;font-weight:bold;color:#FFFFFF;background-color:black;width:140px;text-align:center;padding:4px;text-decoration:"Book Antiqua";text-transform:uppercase;}a:hover,a:active{background-color:white;font-weight:bold;color:black;}</style>
+<style type="text/css">
+<!--
+.bgclr {background-color: #000066; color: #FFFF99; font-weight: bold;}
+-->
+</style>
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/9B7061F7-85CD-CC4C-B4DE-0191F6AABC00/main.js" charset="UTF-8"></script><script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+
+<!-- Begin
+// Insert number of questions
+var numQues = 4;
+
+// Insert number of choices in each question
+var numChoi = 3;
+
+// Insert number of questions displayed in answer area
+var answers = new Array(4);
+
+// Insert answers to questions
+answers[0] = "Cascading Style Sheets";
+answers  = "Dynamic HTML";
+answers  = "Netscape";
+answers  = "Common Gateway Interface";
+
+// Do not change anything below here ...
+function getScore(form) {
+  var score = 0;
+  var currElt;
+  var currSelection;
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+  }
+  score = Math.round(score/numQues*100);
+  form.percentage.value = score + "%";
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.solutions.value = correctAnswers;
+}
+//  End -->
+</script>
+		</head>
+<body  background="radial.jpg" >
+<center><table border="0px" width="900px"><tr><td> <img src="quiz.gif" width="200px" height="200px"></td><td><img src="quiz.png" width="800px"></td> <td> <img src="quiz.gif" width="200px" height="200px"></td></tr>
+<tr><td>
+<ul><font    face="Book Antiqua">
+<div align="left">
+<li>Home</a></li></a href>
+<li><a href="pre1.html">Sistemul solar</a></li></a href>
+<li><a href="astrele.html">Astrele</a></li></a href>
+<li><a href="f ">Interactiv</a></li></a href>
+<li><a href="c">Despre</a></li></a href>
+</ul>
+</td><td>
+
+
+<center>
+
+
+<form name="quiz">
+1. What does CSS stand for?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q1" value="Colorful Style Symbols">Colorful Style Symbols</li>
+  <li><input type="radio" name="q1" value="Cascading Style Sheets">Cascading Style Sheets</li>
+  <li><input type="radio" name="q1" value="Computer Style Symbols">Computer Style Symbols</li>
+</ul>
+
+2. What does DHTML stand for?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q2" value="Dramatic HTML">Dramatic HTML</li>
+  <li><input type="radio" name="q2" value="Design HTML">Design HTML</li>
+  <li><input type="radio" name="q2" value="Dynamic HTML">Dynamic HTML</li>
+</ul>
+3. Who created Javascript?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q3" value="Microsoft">Microsoft</li>
+  <li><input type="radio" name="q3" value="Netscape">Netscape</li>
+  <li><input type="radio" name="q3" value="Sun Micro Systems">Sun Micro Systems</li>
+</ul>
+4. What does CGI stand for?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="Cascading Gate Interaction">Cascading Gate Interaction</li>
+  <li><input type="radio" name="q4" value="Common GIF Interface">Common GIF Interface</li>
+  <li><input type="radio" name="q4" value="Common Gateway Interface">Common Gateway Interface</li>
+</ul>
+
+<input type="button" value="Vezi scor" onClick="getScore(this.form)">
+<input type="reset" value="Sterge raspunsurile">
+<p> Scor = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong><br><br>
+Raspunsuri corecte:<br>
+<textarea class="bgclr" name="solutions" wrap="virtual" rows="4" cols="30" disabled>
+</textarea>
+</form>
+
+
+
+<!-- Script Size:  3.82 KB --></td></tr></table>
+</td><td><center> <img src="f.png" width="70px"><BR><img src="i.png"width="70px"><BR><img src="m.jpg"width="70px"><BR><img src="gm.png"width="70px"><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR></td></tr></table><hr width="1200px" color="blue"><center><h3>&#126;&#126;All rights reserved&#169;Vaghy Anett-Copyright 2017&#126;&#126;</h3></center></body>
+</html>

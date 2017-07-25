@@ -1,0 +1,126 @@
+<html>
+<head> 
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/9B7061F7-85CD-CC4C-B4DE-0191F6AABC00/main.js" charset="UTF-8"></script><script language="JavaScript">
+ 
+ function initializare(){
+ k=0
+ for(i=0;i<4;i++)
+  with(document.forms.itemi) 
+   {
+    item1text[i].style.backgroundColor="lightgray";    item1text[i].style.width="200";
+    item2text[i].style.backgroundColor="lightgray";    item2text[i].style.width="200";
+    item3text[i].style.backgroundColor="lightgray";    item3text[i].style.width="200";
+	item4text[i].style.backgroundColor="lightgray";    item4text[i].style.width="200";
+   }
+  document.forms.form2.nota2.style.backgroundColor="lightgray";
+} //end of function initializare
+
+function rezultat()
+{
+ initializare();
+/*
+ with(document.forms.itemi)
+ {
+  item1text[1].style.color='green';  item1text[1].style.fontWeight='bold';
+  item2text[2].style.color='green';  item2text[2].style.fontWeight='bold';
+  item3text[1].style.color='green';  item3text[1].style.fontWeight='bold';
+  item4text[3].style.color='green';  item4text[3].style.fontWeight='bold';
+  }
+*/
+for(i=0;i<4;i++)    // itemul 1 - raspuns corect B
+ if(document.forms.itemi.item1[i].checked==true)
+  if(i==1) k=k+2.5   
+//  else{document.forms.itemi.item1text[i].style.color='red' 
+  //     document.forms.itemi.item1text[i].style.textDecoration='line-through'}
+
+for(i=0;i<4;i++)  //itemul 2 - raspuns corect C
+   if(document.forms.itemi.item2[i].checked==true)
+     if(i==2) k=k+2.5   
+    //  else{document.forms.itemi.item2text[i].style.color='red'
+      //     document.forms.itemi.item2text[i].style.textDecoration='line-through'}         
+
+for(i=0;i<4;i++)  // itemul 3 - raspuns corect b
+   if(document.forms.itemi.item3[i].checked==true)
+     if(i==1) k=k+2.5   
+   //   else{document.forms.itemi.item3text[i].style.color='red'
+   //        document.forms.itemi.item3text[i].style.textDecoration='line-through'}
+
+for(i=0;i<4;i++)  // itemul 4 - raspuns corect d
+   if(document.forms.itemi.item4[i].checked==true)
+     if(i==3) k=k+2.5   
+    //  else{document.forms.itemi.item4text[i].style.color='red'
+    //     document.forms.itemi.item4text[i].style.textDecoration='line-through'}
+
+//document.forms.f2.nota.value=k;
+}  // end of rezultat
+   
+function final_test()
+   {
+	document.forms.form2.nota2.style.color="lightgray";
+	document.forms.form2.nota2.style.backgroundColor="lightgray";
+	document.forms.form2.nota2.value=k;	
+   }   
+   
+ function iesire()
+ {
+    self.close();
+ } 
+ </script>
+</head>
+
+<BODY bgcolor="lightgray" text="#00008b" ONLOAD="initializare()">
+<h2> Test 2 </h2>
+<br>
+<FORM NAME="itemi" METHOD="post">
+<TABLE BORDER="1">
+<tr>
+<td>
+1. Intrebare 1 ?<br>
+<br>
+<input name="item1" type="radio"><input type="text" readonly name="item1text" value="a. raspuns 1"><br>
+<input name="item1" type="radio"><input type="text" readonly name="item1text" value="b. raspuns 2" ><br>
+<input name="item1" type="radio"><input type="text" readonly name="item1text" value="c. raspuns 3"><br>
+<input name="item1" type="radio"><input type="text" readonly name="item1text" value="d. raspuns 4">
+<td>
+2. Intrebare 2 ?<br>
+<br>
+<input name="item2" type="radio"><input name="item2text" readonly type="text" value="a. raspuns 1"><br>
+<input name="item2" type="radio"><input name="item2text" readonly value="b. paspuns 2"><br>
+<input name="item2" type="radio"><input name="item2text" readonly value="c. raspuns 3"><br>
+<input name="item2" type="radio"><input name="item2text" readonly value="d. raspuns 4"><br>
+</tr>
+
+<tr>
+
+<td>
+3. Intrebare 3 ?<br>
+<br>
+<input name="item3" type="radio"><input type="text" readonly name="item3text" value="a. raspuns 1"><br>
+<input name="item3" type="radio"><input type="text" readonly name="item3text" value="b. raspuns 2"><br>
+<input name="item3" type="radio"><input type="text" readonly name="item3text" value="c. raspuns 3"><br>
+<input name="item3" type="radio"><input type="text" readonly name="item3text" value="d. raspuns 4"><br>
+
+<td>
+4. Intrebare 4 ?<br>
+<br>
+<input name="item4" type="radio"><input type="text" readonly name="item4text" value="a. raspuns 1"><br>
+<input name="item4" type="radio"><input type="text" readonly name="item4text" value="b. raspuns 2"><br>
+<input name="item4" type="radio"><input type="text" readonly name="item4text" value="c. raspuns 3"><br>
+<input name="item4" type="radio"><input type="text" readonly name="item4text" value="d. raspuns 4"><br>
+
+</tr>
+
+</table>
+
+<br>
+<input type="button" value="Finalizare test" onclick="rezultat()">
+</FORM>
+
+
+
+<form name="f2" action="temp.php" method="POST">
+ <input type="hidden" value="TEST JUPITER" name="test" >
+<input type="hidden" name="nota" >
+<input type="submit" value="Conectare"></form>
+</body>
+</html>

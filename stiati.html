@@ -1,0 +1,738 @@
+<html>
+<head>
+
+<link rel="icon" href="icon.jpg">
+ <meta charset="UTF-8">
+    <title>Per aspera ad astra</title>
+   
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+    <!-- FontAwesome 4.3.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />    
+    <!-- Theme style -->
+    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins 
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <!-- iCheck -->
+    <link href="plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+    <!-- Morris chart -->
+    <link href="plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+    <!-- jvectormap -->
+    <link href="plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <!-- Date Picker -->
+    <link href="plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
+    <!-- Daterange picker -->
+    <link href="plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	
+<meta charset="utf-8">
+<link href="style3.css" rel="stylesheet" type="text/css" /><style type="text/css"> ul{list-style-type:none;margin:0;padding:0;}#v a:link,#v a:visited{display:block;font-weight:bold;color:#FFFFFF;background-color:black;width:140px;text-align:center;padding:4px;text-decoration:"Book Antiqua";text-transform:uppercase;}#v a:hover,#v a:active{background-color:white;font-weight:bold;color:black;}</style><style type="text/css">#v ul{list-style-type:none;margin:0;padding:0;}#v a:link,#v a:visited{display:block;font-weight:bold;color:#FFFFFF;background-color:#000033;width:140px;text-align:center;padding:4px;text-decoration:"Book Antiqua";text-transform:uppercase;}#v a:hover,#v a:active{background-color:white;font-weight:bold;color:black;}</style><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/9B7061F7-85CD-CC4C-B4DE-0191F6AABC00/main.js" charset="UTF-8"></script></head>
+
+<body  background="black.jpg" >
+  <div class="wrapper">
+      
+      <header class="main-header">
+        <!-- Logo -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub> <img src="tit.png" width="190px" height="40px"></sub>
+        <!-- Header Navbar: style can be found in header.less -->
+
+        <nav class="navbar navbar-static-top" role="navigation">
+
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>  <BR> &nbsp;&nbsp;  <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+            
+        
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            
+            <div class="pull-left info">
+       <hr>
+
+<?php 
+include 'utilizator.php'; 
+echo "<font color='white'>Nume: $nume1<br>Prenume: $prenume1<br>User: $user1</font>";
+?>
+    </font>
+
+              <hr>
+            </div>
+          </div>
+        
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+           
+        
+            <li>
+              <a href="index1.html">
+              <i class="fa fa-circle-o"></i> <span>Home</span> 
+              </a>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                      <i class="fa fa-circle-o"></i>
+                <span>Sistemul solar</span>
+        
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="mercur.html"><i class="fa fa-circle-o"></i> Mercur</a></li>
+                <li><a href="venus.html"><i class="fa fa-circle-o"></i> Venus</a></li>
+                <li><a href="pamant.html"><i class="fa fa-circle-o"></i> Terra</a></li>
+				   <li><a href="marte.html"><i class="fa fa-circle-o"></i>Marte</a></li>
+			<li><a href="jupiter.html"><i class="fa fa-circle-o"></i>Jupiter</a></li>
+			<li><a href="saturn.html"><i class="fa fa-circle-o"></i>Saturn</a></li>
+			<li><a href="uranus.html"><i class="fa fa-circle-o"></i>Uranus</a></li>
+			<li><a href="neptun.html"><i class="fa fa-circle-o"></i>Neptun</a></li>
+			<li><a href="soare.html"><i class="fa fa-circle-o"></i>Soarele</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                    <i class="fa fa-circle-o"></i>
+                <span>Astrele</span>
+         
+              </a>
+              <ul class="treeview-menu">
+      
+            <li><a href="pitica alba.html"><i class="fa fa-circle-o"></i>Pitica alba</a>
+            </li>
+            <li><a href="nebula planetara.html"><i class="fa fa-circle-o"></i>Nebula planetara</a></li>
+            <li><a href="giganta rosie.html"><i class="fa fa-circle-o"></i>Giganta rosie</a></li>
+            <li><a href="stea medie.html"><i class="fa fa-circle-o"></i>Stea medie</a>
+               
+            </li>
+			  <li><a href="nebula stelara.html"><i class="fa fa-circle-o"></i>Nebula stelara</a></li>
+			  <li><a href="giganta albastra.html"><i class="fa fa-circle-o"></i>Giganta albastra</a></li>
+			  <li><a href="supergiganta rosie.html"><i class="fa fa-circle-o"></i>Supergiganta rosie</a></li>
+			    <li><a href="supernova.html"><i class="fa fa-circle-o"></i>Supernova<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+				  <li><a href="stea neutronica.html"><i class="fa fa-circle-o"></i>Stea neutronica</a></li>
+				    <li><a href="gaura neagra.html"><i class="fa fa-circle-o"></i>Gaura neagra</a></li></ul></li>
+        </ul>
+            </li>
+            <li class="treeview">
+            <a href="#"> <i class="fa fa-circle-o"></i>
+                <span>Interactiv</span>
+              </a>
+              <ul class="treeview-menu">
+               <li><a href="stiati.html"><i class="fa fa-circle-o"></i>Stiati ca?</a></li>
+	 <li><a href="rebus.html"><i class="fa fa-circle-o"></i>Rebus<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+	 <li><a href="rebus1.html"><i class="fa fa-circle-o"></i>Rebus 1</a></li><li>
+	 <a href="rebus2.html"><i class="fa fa-circle-o"></i>Rebus 2</a></li><li>
+	 <a href="rebus3.html"><i class="fa fa-circle-o"></i>Rebus 3</a></li></ul></li>
+	   	   <li><a href="puzzle.html"><i class="fa fa-circle-o"></i>Puzzle<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+		   <li><a href="p1.html"><i class="fa fa-circle-o"></i>Puzzle 1</a></li><li>
+		   <a href="p2.html"><i class="fa fa-circle-o"></i>Puzzle 2</a></li><li>
+		   <a href="p3.html"><i class="fa fa-circle-o"></i>Puzzle 3</a></li></ul></li>
+	   <li><a href="evaluare.html"><i class="fa fa-circle-o"></i>Evaluare<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+	   <li><a href="t1.html"><i class="fa fa-circle-o"></i>Test 1</a></li><li>
+	   <a href="t2.html"><i class="fa fa-circle-o"></i>Test 2</a></li><li>
+	   <a href="t3.html"><i class="fa fa-circle-o"></i>Test 3</a></li></ul></li></ul></li>
+            
+            <li class="treeview">
+              <a href="#">      <i class="fa fa-circle-o"></i>
+                <span>Despre</span>
+          
+              </a>
+              <ul class="treeview-menu">
+                 <li><a href="harta.html"><i class="fa fa-circle-o"></i>Harta site</a></li>
+	 <li><a href="contact.html"><i class="fa fa-circle-o"></i>Contact</a></li>
+	   <li><a href="webografie.html"><i class="fa fa-circle-o"></i>Webografie</a></li>
+              </ul>
+            </li>
+                <li><a href="logout.php" action=""><i class="fa fa-circle-o"></i> Logout</a></li>
+               
+              </ul>
+          
+            
+              
+          
+            
+         
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Right side column. Contains the navbar and content of the page -->
+      <div class="content-wrapper">
+
+<center><table background="radial.jpg" width="1120px">
+<tr><td></td><td colspan="3"><center><img src="stiati ca1.png"></td></tr>
+<tr><td width="150px"><center></td><td>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+</td><td width="900px">
+
+
+<br>
+<font    face="Book Antiqua">
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1. Dac&#259; Saturn ar fi pus &#238;n ap&#259;, ar pluti.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+2. Spa&#355;iul nu este un vid complet. Exist&#259; &#238;n jur de 3 atomi pe metru cub.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+3. Lucy, o stea din constela&#355;ia Centaurului, este un diamant enorm, av&#226;nd &#238;n jur de 10 la puterea 30 karate.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4. Un anotimp dureaz&#259; 21 de ani pe Uranus.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+5. Un an pe Mercur dureaz&#259; mai pu&#355;in de-o zi. <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6. Heliul este singura substan&#355;&#259; din Univers care nu poate exista &#238;n stare solid&#259;.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7. Pe Titan, satelitul lui Saturn, exist&#259; oceane de metan.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+8. Toate planetele din sistemul nostru solar au aceea&#351;i v&#226;rst&#259;.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+9. Nicio eclips&#259; solar&#259; nu poate dura mai mult de 7 minute &#351;i 58 de secunde din cauza vitezei Soarelui.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+10. Eclipsele lunare, &#238;n schimb, pot dura p&#226;na la o or&#259; &#351;i 40 de minute.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+11. Luna plin&#259; este de 9 ori mai str&#259;lucitoare dec&#226;t Luna nou&#259;.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+12. Un quasar produce la fel de mult&#259; energie ca 1.000.000.0000.000 de sori.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+13. C&#226;nd Luna este &#238;n zenit c&#226;nt&#259;re&#351;ti, 
+din pricina atrac&#355;iei ei<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gravita&#355;ionale, mai pu&#355;in cu c&#226;teva zeci de grame.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+14. Imediat dup&#259; Big Bang toat&#259; materia din Univers se afla &#238;n stare lichid&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+15. &#206;n fiecare an Luna se &#238;ndep&#259;rteaz&#259; de P&#259;m&#226;nt cu 3,8 centimetri.
+
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+16. &#206;n medie, o galaxie are 40.000.000.000 de stele.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+17. Suprafa&#355;a planei Marte este acoperit&#259; cu rugin&#259;.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+18. Doar a 14-a miliarda parte din energia emis&#259; de Soare ajunge pe Terra.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+19. Sweeps-10 este planeta cu cea mare vitez&#259; orbital&#259; descoperit&#259;. Un an pe ea dureaz&#259; 10 ore.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+20. Pe unele pitice maronii plou&#259; cu fier lichid.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+21. Fotonilor din interiorul Soarelui le iau peste 10 milioane de ani s&#259; ajung&#259; la suprafa&#355;a acestuia.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+22. Fotonii emi&#351;i de Soare str&#259;bat distan&#355;a p&#226;n&#259; la P&#259;m&#226;nt &#238;n 8 minute &#351;i 10 secunde.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+23. Din cei peste 20 de milioane de meteori&#355;i observabili care cad &#238;n fiecare<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zi pe Terra, doar unul sau doi ajung pe p&#259;m&#226;nt. Ceilal&#355;i ard complet &#238;n atmosfer&#259;.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+24. &#206;n S.U.A. sunt 3.500 de astronomi, dar peste 15.000 de astrologi.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+25. Din pricina tensiunii de suprafa&#355;&#259;, orice lichid l&#259;sat liber &#238;n spa&#355;iu va lua forma unei sfere.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+26. Stelele neutron se pot roti &#351;i de 500 de ori pe secund&#259;.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+27. Cea mai mare structur&#259; observat&#259; &#238;n spa&#355;iu este Marele Zid Sloan. Acesta este un<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; super roi de galaxii care se &#238;ntinde pe mai bine de 1,37 de miliarde de ani lumin&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+28. Dac&#259; dou&#259; buc&#259;&#355;i de metal se ating &#238;n spa&#355;iu, acestea vor r&#259;m&#226;ne unite pentru totdeauna.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+29. Din pricina v&#226;ntului solar, Soarele pierde 1.000.000 de tone de materie pe secund&#259;.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+30. Dac&#259; ar c&#259;l&#259;tori cu 160 de kilometri pe or&#259;, o nav&#259; ar ajunge<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la cea mai apropiat&#259; stea &#238;n 29 de milioane de ani.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+31. P&#259;m&#226;ntul se rote&#351;te &#238;n jurul propriei axe, &#238;n jurul Soarelui,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; al&#259;turi de el &#238;n jurul centrului galaxiei &#351;i &#238;mpreun&#259; cu toat&#259; galaxia se &#238;ndreapt&#259; spre Andromeda.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+32. Neil Armstrong a p&#259;&#351;it pe Lun&#259; cu st&#226;ngul.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+33. P&#259;m&#226;ntul devine zilnic cu 100 de tone mai greu din pricina meteori&#355;ilor care cad pe el.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+34. Se estimeaz&#259; c&#259; &#238;n Univers sunt peste 10.000.000.000.000.000.000.000 de stele
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+35. Steaua Polar&#259; este singura de pe cer care nu pare a se mi&#351;ca de la o noapte la alta.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+36. Venus este singura planet&#259; din sistemul nostru solar care se rote&#351;te retrograd, de la est spre vest.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+37. Pentru a te elibera de atrac&#355;ia gravita&#355;ional&#259; a Terrei
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ai nevoie de-o for&#355;&#259; egal&#259; cu 16 milioane de cai putere.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+38. Peste 5 miliarde de ani, o zi pe Terra va avea 48 de ore.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+39. De la descoperirea ei, care a avut loc acum mai bine de 150 de ani,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Neptun nu a terminat &#238;nc&#259; de dat un singur rotocol &#238;n jurul Soarelui.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+40. Din pricin&#259; c&#259; nu &#351;i-a eliberat complet orbita &#351;i c&#259; Charon, satelitul ei,
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nu se rote&#351;te &#238;n jurul ei, ci a unui punct situate &#238;ntre 
+ ele, Pluto nu mai este considerat&#259; o planet&#259;, <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ci una pitic&#259; sau,
+ &#238;mpreun&#259; cu Charon, un sistem dublu de planete pitice.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+41. De dou&#259; ori &#238;n cursul unei orbit&#259;ri, Mercur se apropie at&#226;t de mult de Soare &#351;i
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accelereaz&#259; &#238;ntr-at&#226;t de tare &#238;nc&#226;t 
+ Soarele pare c&#259; se deplaseaz&#259; &#238;napoi.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+42. Dup&#259; aselenizare, o oglind&#259; a fost l&#259;sat&#259; pe Lun&#259;, iar cu ajutorul ei
+ se poate<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; m&#259;sura, prin reflectarea undelor laser,
+ distan&#355;a fa&#355;&#259; de Terra, cu precizie milimetric&#259;.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+43. Stelele mai mari dec&#226;t Soarele nostru, dup&#259; ce au terminat de transformat hidrogenul
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#238;n heliu, trec la transformarea heliului 
+&#238;n carbon. Soarele nostru, neav&#226;nd masa &#351;i implicit nici atrac&#355;ia<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+gravita&#355;ional&#259; necesar&#259; atingerii temperaturilor la care<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+se transform&#259; heliului &#238;n carbon, dup&#259; ce-&#351;i va fi terminat provizia<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+de hidrogen, va &#238;ncepe s&#259; se r&#259;ceasc&#259; treptat.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+44. Cele mai mari stele ajung s&#259; transforme carbonul &#238;n fier. Dar cum acest proces consum&#259; energia &#238;n
+ loc s&#259;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o elibereze, transformarea se accelereaz&#259; pe m&#259;sur&#259; 
+ ce densitatea cre&#351;te, iar volumul se mic&#351;oreaz&#259;,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;culmin&#226;nd printr-o 
+ explozie solar&#259; cunoscut&#259; sub numele de supernov&#259;. Ca urmare a acestei explozii,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp; straturile exterioare ale stelei sunt aruncate &#238;n Univers, iar ce r&#259;m&#226;ne <BR>&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;din fosta stea este nucleul de fier, de dimensiuni foarte reduse, de r&#226;ndul metrilor sau zecilor 
+ de metri<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p&#259;tra&#355;i, dar cu o mas&#259; ce-o dep&#259;&#351;e&#351;te pe-a Soarelui 
+ nostru. Acestea sunt stelele neutron.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+45. O stea &#351;i mai mare dec&#226;t cea men&#355;ionat&#259; anterior <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;poate da 
+na&#351;tere &#238;n urma exploziei sale unei g&#259;uri negre.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+46. &#206;n centrul fiec&#259;rei galaxii se afl&#259; o gaur&#259; neagr&#259; gigantic&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+47. Peste c&#226;teva milioane de ani, Calea Lactee &#351;i Andromeda se vor ciocni. 
+Sta&#355;iul dintre<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stele este at&#226;t de vast 
+&#238;nc&#226;t, cel mai probabil, nu vor exista dou&#259; stele care s&#259; se loveasc&#259;.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multe vor fi aruncate, cu viteze colosale, <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#238;n spa&#355;iul intergalactic, iar altele vor
+ continua s&#259; orbiteze &#238;n jurul galaxiei nou formate. 
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+48. &#206;n constela&#355;ia Leb&#259;da se afl&#259; cea mai mare stea descoperit&#259; p&#226;n&#259; acum. 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aceasta este de aproximativ un milion de ori mai mare dec&#226;t Soarele nostru.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+49. O sut&#259; de sateli&#355;i artificiali sunt lansa&#355;i &#238;n jurul P&#259;m&#226;ntului &#238;n fiecare an.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+50. Majoritatea sateli&#355;or de comunica&#355;ii se afl&#259; la 300 de km deasupra suprafe&#355;ei terestre.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+51. Cel mai &#238;nalt munte din sistemul nostru solar este Olympus Mons &#351;i se g&#259;se&#351;te pe Marte.
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acesta este de peste 3 ori mai &#238;nalt dec&#226;t Everestul.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+52. C&#226;mpul magnetic din jurul planetelor este generat de nucleul acestora, prin efectul de dinam.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+53. Voyager 1 este obiectul uman care a ajuns la cea mai mare dep&#259;rtare. Lansat &#238;n 1977,<BR>&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a trecut &#238;n 1989 de Neptun &#351;i dup&#259; ce a str&#259;b&#259;tut mai bine 
+de 6 miliarde de km, se preg&#259;te&#351;te s&#259; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ias&#259; din Sistemul Solar.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+54. &#206;n sistemul nostru solar exist&#259; trei sateli&#355;i care au la r&#226;ndul lor sateli&#355;i: Lo, Titan &#351;i Triton.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+55. Cea mai mare lun&#259; din sistemul nostru solar este Ganymede, luna lui Saturn.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+56. Saturn este str&#259;b&#259;tur&#259; &#238;n permanen&#355;&#259; de v&#226;nturi care ating peste 1100 de km pe or&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+57. Un sistem solar binar este un sistem &#238;n care dou&#259; stele se rotesc una &#238;n jurul<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alteia. Planetele unui astfel de sistem sunt cele mai bune candidate la sus&#355;inerea &#351;i 
+dezvoltarea vie&#355;ii.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+58. Pe Triton, luna lui Neptun, temperatura este mai sc&#259;zut&#259; dec&#226;t pe Pluto. De fapt,<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Triton este cel mai friguros corp ceresc din sistemul 
+nostru solar, cu o temperatur&#259; de -236 de grade Celsius.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+59. Primul animal &#238;n spa&#355;iu nu a fost omul, ci c&#226;inele. Laika, pilotul canin al navei
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sputnik 2 a murit &#238;n 1957 dup&#259; ce i s-a terminat rezerva de oxigen.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+60. Nucleul unei stele ajunge &#351;i la 16 milioane de grade Celsius. Un fir <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;de nisip av&#226;nd aceast&#259; temperatur&#259; ar ucide un om aflat la 150 de kilometri dep&#259;rtare.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+61. Stelele par c&#259; ar f&#226;c&#226;i din pricina atmosferei terestre.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+62. Soarele c&#226;nt&#259;re&#351;te 2.000.000.000.000.000.000.000.000 de kilograme.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+63. Gravita&#355;ia pe Lun&#259; este de 6 ori mai sc&#259;zut&#259; dec&#226;t cea existent&#259; pe Terra, 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de accea astronau&#355;ii pot s&#259;ri p&#226;n&#259; la 4m &#238;n&#259;l&#355;ime.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+64. Cele mai str&#259;lucitoare stele pe cerul de noapte nu sunt de fapt stele, ci planete: <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venus, Jupiter, Saturn &#351;i Mercur.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+65. Se crede c&#259; Europa, satelitul lui Jupiter, ar avea oceane de ap&#259; sub suprafa&#355;a sa de ghea&#355;&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+66. Big Bang-ul a dus la crearea materiei &#351;i antimateriei care au &#238;nceput s&#259;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se anihileze reciproc. Materia a ie&#351;it &#238;nving&#259;toarea,
+ &#238;ns&#259; Universul a r&#259;mas aproape gol.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+67. Singura galaxie vizibil&#259; cu ochiul liber este Andromeda. Pentru a o vedea <BR>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;este nevoie s&#259; te afli &#238;n sudul peninsulei Arabice.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+68. Universul se extinde cu o vitez&#259; cresc&#226;nd&#259;.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+69. Soarta Universului depinde de materia &#238;ntunecat&#259;. Dac&#259; este insuficient&#259;, Universul <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;se va extinde la nesf&#226;r&#351;it, p&#226;n&#259; c&#226;nd planetele
+ se vor dep&#259;rta de Soare, soarele de centrul galaxiei,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iat 
+ leg&#259;turile<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dintre atomi &#351;i electroni se vor rupe. Dac&#259; 
+ este suficient&#259;, Universul va &#238;ncepe de la un moment<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ dat s&#259; se contracte p&#226;n&#259; c&#226;nd va sf&#226;r&#351;ti prin a fi un singur punct, <BR>&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;asemenea celui de la &#238;nceputul s&#259;u, care a dat na&#351;tere Big Bang-ului.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+70. &#206;n momentul Big Bang-ului &#238;ntregul Univers era redus la un punct de miliarde de<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ori mai mic dec&#226;t un atom, dar av&#226;nd o densitate &#351;i o temperatur&#259; infinite.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+71. Soarele se m&#259;re&#351;te treptat. &#206;n aproximativ 5 miliarde de ani va ajunge p&#226;n&#259; la orbita P&#259;m&#226;ntului.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+72. Cea mai apropiat&#259; stea de noi este Soarele. A doua este Proxima Centauri.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+73. De pe Mercur, Soarele se poate vedea r&#259;s&#259;rind, urc&#226;nd pe 
+cer, apoi oprindu-se,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#238;ntorc&#226;ndu-se &#351;i apun&#226;nd de unde a r&#259;s&#259;rit.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+74. Jupiter are cele mai multe luni din &#238;ntreg sistemul solar â 63.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+75. Jupiter, Saturn, Uranus &#351;i Neptun sunt alc&#259;tuite din gaz, motiv pentru care nu se poate ateriza pe ele.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+76. Pe Mercur, temperatura variaz&#259; de la zi la noapte cu peste 500 de grade Celsius.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+77. Cea mai cald&#259; planet&#259; din sistemul nostru solar nu este Mercur, ci Venus
+. <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De&#351;i se afl&#259; mai departe de Soare, aceasta are o temperatur&#259; mai ridicat&#259;
+ din pricina atmosferei bogat&#259; &#238;n <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dioxid de carbon, care d&#259; na&#351;tere 
+ efectului de ser&#259;.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+78. P&#259;m&#226;ntul este singura planet&#259; din sistemul nostru solar care nu poart&#259;<BR>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; numele unui zeu grec sau roman.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+79. Planeta cu cea mai mare densitate din sistemul solar este P&#259;m&#226;ntul.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+80. Cea mai lung&#259; zi din sistemul nostru solar este pe Venus.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+81. O zi pe Lun&#259; dureaz&#259; c&#226;t un an, viteza ei de rota&#355;ie fiind egal&#259; cu cea de revolu&#355;ie.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Din aceast&#259; cauz&#259; nu vedem dec&#226;t o singur&#259; fa&#355;&#259; de-a sa.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+82. Fa&#355;a &#238;ntunecat&#259; a Lunii prime&#351;te de fapt la fel de mult&#259; lumin&#259; ca &#351;i cea vizibil&#259;.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Except&#226;nd-o, desigur, pe cea reflectat&#259; de P&#259;m&#226;nt.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+83. Cel mai mare magnet din Univers este o stea neutron.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+84. O stea se na&#351;te &#238;n Calea Lactee la fiecare 18 zile.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+85. Pe Venus nu exist&#259; anotimpuri.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+86. Soarele se afl&#259; la 149 de milioane de ani dep&#259;rtare, <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de
+ 270 de mii de ori mai aproape dec&#226;t Proxima Centauri.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+87. Anul cosmic este perioada de timp care-i ia Soarelui s&#259; se roteasc&#259; &#238;n <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jurul centrului galaxiei â aproximativ 225 de milioane de ani.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+88. Spre centul galaxiei nu exist&#259; noapte. Cerul este at&#226;t de &#238;n&#355;esat de 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stele &#238;nc&#226;t este &#238;n permanen&#355;&#259; lumin&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+89. Luna este de un milion de ori mai uscat&#259; dec&#226;t de&#351;ertul Sahara.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+90. P&#259;m&#226;ntul se &#238;nv&#226;rte &#238;n jurul Soarelui cu peste 100.000 de kilometri pe or&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+91. Sistemul Solar s-a format acum aproximativ 4,6 miliarde de ani.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+92. Pe l&#226;ng&#259; cele 8 planete, exist&#259; &#238;n Sistemul Solar &#351;i 5 planete pitice: Pluto,
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ceres, Eris, Makemake &#351;i Haumea. Cea mai mare dintre acestea este Eris.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+93. &#206;n Univers sunt mai multe stele dec&#226;t fire de nisip sunt pe P&#259;m&#226;nt.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+94. Sirius este mult mai str&#259;lucitoare dec&#226;t Soarele. Dar este &#351;i mult mai departe.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+95. Undele sonore nu se propag&#259; prin vid. De aceea, &#238;n spa&#355;iu nu se poate auzi nimic.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+96. Galileo Galilei a fost primul om care s-a uitat la cer printr-un telescop.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+97. Marginea Sistemului Solar este de 1000 de ori mai &#238;ndep&#259;rtat&#259; dec&#226;t Pluto.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+98. Toate elementele cunoscute de omenire provin fie din procese care au loc &#238;n<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; interiorul stelelor, fie din explozia acestora.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+99. Atmosfera soarelui se extinde dincolo de planeta Pluto, marc&#226;nd <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;marginea
+ Sistemului Solar. Aceasta poart&#259; numele de Heliosfer&#259;.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+100. Primul om care a ajuns &#238;n spa&#355;iu a fost rusul Yuri Gagarin.
+
+ 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+101. Forma&#355;iunile de la suprafa&#355;a planetei Marte demonstreaz&#259; c&#259; &#238;n<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; trecut au existat pe ea lacuri, r&#226;uri &#351;i chiar m&#259;ri.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+102. Costul unui costum spa&#355;ial este de 11 milioane de dolari.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+103. &#206;ntr-o noapte senin&#259;, departe de ora&#351;e &#351;i de sursele de poluare luminoas&#259;, <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ochiul uman poate vedea p&#226;n&#259; la 3000 de stele.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+104. C&#226;nd prive&#351;ti o stea, prive&#351;ti &#238;n trecut. Cu un telescop suficient de<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; puternic ai putea vedea azi cum ar&#259;ta acum 
+c&#226;&#355;iva ani<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sau chiar miliarde de ani, depinde c&#226;t de departe prive&#351;ti.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+105. De&#351;i este alc&#259;tuit&#259; preponderent din gaz, Jupiter este mai grea dec&#226;t <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;toate celelalte planete din sistemul nostru solar luate &#238;mpreun&#259;.
+
+ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+106. Dac&#259; Soarele ar fi redus la m&#259;rimei unui fir de gr&#226;u, cea mai apropiat&#259; stea s-ar
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; afla la mai bine de 10 kilometri dep&#259;rtare.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+107. Pe Venus este at&#226;t de cald, &#238;nc&#226;t po&#355;i topi plumb.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+108. Din cauza for&#355;ei centrifuge, la Ecuator e&#351;ti cu 3% mai u&#351;or dec&#226;t la poli.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+109. Datorit&#259; m&#259;rimii sale, Jupiter ac&#355;ioneaz&#259; ca un aspirator, 
+atr&#259;g&#226;nd tot<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; felul de comete
+ &#351;i asteroizi. F&#259;r&#259; el, Terra ar fi bombardat&#259; de meteori&#355;i.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+110. Saturn &#351;i Neptun sunt singurele planete din sistemul nostru solar care au inele.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+111. &#206;n fiecare secund&#259; &#238;n interiorul Soarelui patru milioane de tone de materie sunt transformate &#238;n energie.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+112. De&#351;i Soarele este o stea de m&#259;rime mijlocie, este mai mare <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+dec&#226;t 85% dintre stelele existente &#238;n Calea Lactee.
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+113. Dac&#259; numeri 100 de stele pe minut, po&#355;i num&#259;ra stelele din galaxia noastr&#259; &#238;n aproximativ 200 de ani.
+</td><td width="200px"><BR><BR><BR><BR><center><a href="https://www.facebook.com/anett991122"><img src="f.png" width="70px"></a href><BR><a href="https://www.instagram.com/v.anett0/?hl=ro"><img src="i.png"width="70px"></a href><BR><a href="https://mg.mail.yahoo.com/neo/launch?.rand=c56ovvmm430bf"><img src="m.jpg"width="70px"></a href><BR><a href="https://myaccount.google.com/?utm_source=OGB&pli=1"><img src="gm.png"width="70px"></a href><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR></td></tr></table>
+</div><!-- ./wrapper -->
+
+    <!-- jQuery 2.1.3 -->
+    <script src="plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <!-- jQuery UI 1.11.2 -->
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>    
+    <!-- Morris.js charts -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="plugins/morris/morris.min.js" type="text/javascript"></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+    <!-- jvectormap -->
+    <script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" type="text/javascript"></script>
+    <script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/knob/jquery.knob.js" type="text/javascript"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+    <!-- datepicker -->
+    <script src="plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+    <!-- iCheck -->
+    <script src="plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+    <!-- Slimscroll -->
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <!-- FastClick -->
+    <script src='plugins/fastclick/fastclick.min.js'></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js" type="text/javascript"></script>
+
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js" type="text/javascript"></script>
+
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js" type="text/javascript"></script>
+<hr width="1200px" color="blue"><center><h3>&#126;&#126;All rights reserved&#169;Vaghy Anett-Copyright 2017&#126;&#126;</h3></center></body>
+</html>
