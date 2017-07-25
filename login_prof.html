@@ -1,0 +1,31 @@
+<html>
+<head> 
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/9B7061F7-85CD-CC4C-B4DE-0191F6AABC00/main.js" charset="UTF-8"></script><script language="JavaScript">
+  function iesire()
+  {
+   self.close();
+  }
+  
+  function adauga_elev()
+  {
+   window,open("adauga_elev.html");
+  }
+</script>
+</head>
+
+<body>
+<h2>Contul profesorului</h2>
+<hr color="blue"><br>
+   <form name="form1" method="post" action="elevi.php">
+      <input type="submit" name="buton1" value="Elevi" > 
+   </form>  
+    <form name="form2" method="post" action="clase.php">
+	  <input type="submit" name="buton2" value="Clase" onclick="clase.php">
+	</form>
+	<form name="form3" method="post">
+	  <input type="submit" name="buton3" value="Adauga elev" onclick="adauga_elev()">
+	</form>  
+	 
+	<input type="submit" name="buton4" value="Deconectare" onclick="iesire()">
+</body>
+</html>
