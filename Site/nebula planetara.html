@@ -1,0 +1,241 @@
+<html>
+<head>
+
+<link rel="icon" href="icon.jpg">
+ <meta charset="UTF-8">
+    <title>Per aspera ad astra</title>
+   
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+    <!-- FontAwesome 4.3.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />    
+    <!-- Theme style -->
+    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins 
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <!-- iCheck -->
+    <link href="plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+    <!-- Morris chart -->
+    <link href="plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+    <!-- jvectormap -->
+    <link href="plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <!-- Date Picker -->
+    <link href="plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
+    <!-- Daterange picker -->
+    <link href="plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<meta charset="utf-8">
+<link href="style3.css" rel="stylesheet" type="text/css" /><style type="text/css"> ul{list-style-type:none;margin:0;padding:0;}#v a:link,#v a:visited{display:block;font-weight:bold;color:#FFFFFF;background-color:black;width:140px;text-align:center;padding:4px;text-decoration:"Book Antiqua";text-transform:uppercase;}#v a:hover,#v a:active{background-color:white;font-weight:bold;color:black;}</style><style type="text/css">#v ul{list-style-type:none;margin:0;padding:0;}#v a:link,#v a:visited{display:block;font-weight:bold;color:#FFFFFF;background-color:#000033;width:140px;text-align:center;padding:4px;text-decoration:"Book Antiqua";text-transform:uppercase;}#v a:hover,#v a:active{background-color:white;font-weight:bold;color:black;}</style><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/9B7061F7-85CD-CC4C-B4DE-0191F6AABC00/main.js" charset="UTF-8"></script></head>
+<body  background="black.jpg" >
+  <div class="wrapper">
+      
+      <header class="main-header">
+        <!-- Logo -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub> <img src="tit.png" width="190px" height="40px"></sub>
+        <!-- Header Navbar: style can be found in header.less -->
+
+        <nav class="navbar navbar-static-top" role="navigation">
+
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>  <BR> &nbsp;&nbsp;  <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+            
+        
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            
+            <div class="pull-left info">
+       <hr>
+
+<?php 
+include 'utilizator.php'; 
+echo "<font color='white'>Nume: $nume1<br>Prenume: $prenume1<br>User: $user1</font>";
+?>
+    </font>
+
+              <hr>
+            </div>
+          </div>
+        
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+           
+        
+            <li>
+              <a href="index1.html">
+              <i class="fa fa-circle-o"></i> <span>Home</span> 
+              </a>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                      <i class="fa fa-circle-o"></i>
+                <span>Sistemul solar</span>
+        
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="mercur.html"><i class="fa fa-circle-o"></i> Mercur</a></li>
+                <li><a href="venus.html"><i class="fa fa-circle-o"></i> Venus</a></li>
+                <li><a href="pamant.html"><i class="fa fa-circle-o"></i> Terra</a></li>
+				   <li><a href="marte.html"><i class="fa fa-circle-o"></i>Marte</a></li>
+			<li><a href="jupiter.html"><i class="fa fa-circle-o"></i>Jupiter</a></li>
+			<li><a href="saturn.html"><i class="fa fa-circle-o"></i>Saturn</a></li>
+			<li><a href="uranus.html"><i class="fa fa-circle-o"></i>Uranus</a></li>
+			<li><a href="neptun.html"><i class="fa fa-circle-o"></i>Neptun</a></li>
+			<li><a href="soare.html"><i class="fa fa-circle-o"></i>Soarele</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                    <i class="fa fa-circle-o"></i>
+                <span>Astrele</span>
+         
+              </a>
+              <ul class="treeview-menu">
+      
+            <li><a href="pitica alba.html"><i class="fa fa-circle-o"></i>Pitica alba</a>
+            </li>
+            <li><a href="nebula planetara.html"><i class="fa fa-circle-o"></i>Nebula planetara</a></li>
+            <li><a href="giganta rosie.html"><i class="fa fa-circle-o"></i>Giganta rosie</a></li>
+            <li><a href="stea medie.html"><i class="fa fa-circle-o"></i>Stea medie</a>
+               
+            </li>
+			  <li><a href="nebula stelara.html"><i class="fa fa-circle-o"></i>Nebula stelara</a></li>
+			  <li><a href="giganta albastra.html"><i class="fa fa-circle-o"></i>Giganta albastra</a></li>
+			  <li><a href="supergiganta rosie.html"><i class="fa fa-circle-o"></i>Supergiganta rosie</a></li>
+			    <li><a href="supernova.html"><i class="fa fa-circle-o"></i>Supernova<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+				  <li><a href="stea neutronica.html"><i class="fa fa-circle-o"></i>Stea neutronica</a></li>
+				    <li><a href="gaura neagra.html"><i class="fa fa-circle-o"></i>Gaura neagra</a></li></ul></li>
+        </ul>
+            </li>
+            <li class="treeview">
+            <a href="#"> <i class="fa fa-circle-o"></i>
+                <span>Interactiv</span>
+              </a>
+              <ul class="treeview-menu">
+               <li><a href="stiati.html"><i class="fa fa-circle-o"></i>Stiati ca?</a></li>
+	 <li><a href="rebus.html"><i class="fa fa-circle-o"></i>Rebus<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+	 <li><a href="rebus1.html"><i class="fa fa-circle-o"></i>Rebus 1</a></li><li>
+	 <a href="rebus2.html"><i class="fa fa-circle-o"></i>Rebus 2</a></li><li>
+	 <a href="rebus3.html"><i class="fa fa-circle-o"></i>Rebus 3</a></li></ul></li>
+	   	   <li><a href="puzzle.html"><i class="fa fa-circle-o"></i>Puzzle<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+		   <li><a href="p1.html"><i class="fa fa-circle-o"></i>Puzzle 1</a></li><li>
+		   <a href="p2.html"><i class="fa fa-circle-o"></i>Puzzle 2</a></li><li>
+		   <a href="p3.html"><i class="fa fa-circle-o"></i>Puzzle 3</a></li></ul></li>
+	   <li><a href="evaluare.html"><i class="fa fa-circle-o"></i>Evaluare<i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">
+	   <li><a href="t1.html"><i class="fa fa-circle-o"></i>Test 1</a></li><li>
+	   <a href="t2.html"><i class="fa fa-circle-o"></i>Test 2</a></li><li>
+	   <a href="t3.html"><i class="fa fa-circle-o"></i>Test 3</a></li></ul></li></ul></li>
+            
+            <li class="treeview">
+              <a href="#">      <i class="fa fa-circle-o"></i>
+                <span>Despre</span>
+          
+              </a>
+              <ul class="treeview-menu">
+                 <li><a href="harta.html"><i class="fa fa-circle-o"></i>Harta site</a></li>
+	 <li><a href="contact.html"><i class="fa fa-circle-o"></i>Contact</a></li>
+	   <li><a href="webografie.html"><i class="fa fa-circle-o"></i>Webografie</a></li>
+              </ul>
+            </li>
+                <li><a href="logout.php" action=""><i class="fa fa-circle-o"></i> Logout</a></li>
+               
+              </ul>
+          
+            
+              
+          
+            
+         
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Right side column. Contains the navbar and content of the page -->
+      <div class="content-wrapper"></center>
+<center><table background="radial.jpg" width="750px" ><tr><td> <img src="na.jpg" width="200px" height="200px"></td><td><img src="natitlu.png" width="800px"></td> <td> <img src="na.jpg" width="200px" height="200px"></td></tr>
+<tr><td>
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><Br><BR>
+</td><td><BR><center></center><BR>
+
+<font    face="Book Antiqua">
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O nebuloas&#259; planetar&#259; este un obiect astronomic const&#226;nd dintr-o membran&#259; din gaz &#351;i plasm&#259;, format&#259; din anumite tipuri de stele aflate la sf&#226;r&#351;itul vie&#355;ii. Numele i&#351;i are originea dintr-o asem&#259;nare cu planetele gigant, c&#226;nd acestea sunt vizualizate printr-un mic telescop optic, &#351;i nu are leg&#259;tur&#259; cu planetele sistemului solar. Ele reprezint&#259; un fenomen cu o via&#355;&#259; relativ scurt&#259;, dur&#226;nd c&#226;teva zeci de mii de ani, &#238;n compara&#355;ie cu durata medie de via&#355;&#259; a unei stele care este de c&#226;teva miliarde de ani.
+La sf&#226;r&#351;itul vie&#355;ii unei stele, &#238;n timpul etapei gigant&#259; ro&#351;ie, straturile exterioare ale stelei sunt eliminate prin pulsa&#355;ii &#351;i prin puternicul v&#226;nt solar. F&#259;r&#259; aceste straturi opace nucleul r&#259;mas al stelei str&#259;luce&#351;te intens &#351;i este foarte fierbinte. Radia&#355;iile ultraviolete emise de acest nucleu ionizeaz&#259; straturile exterioare eliminate ale stelei, ele radiind ca o nebuloas&#259; planetar&#259;. Georges Abell &#351;i Peter Goldreich au stabilit, &#238;n mod corect, c&#259; nebuloasele planetare evolueaz&#259; din stelele gigantice ro&#351;ii.
+<BR><font    face="Book Antiqua">
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Nebuloasele planetare sunt obiecte importante &#238;n astronomie deoarece joac&#259; un rol crucial &#238;n evolu&#355;ia chimic&#259; a galaxiei, return&#226;nd material &#238;n mediul interstelar care a fost &#238;mbog&#259;&#355;it cu elemente grele &#351;i alte produse ale nucleosintezei (cum ar fi carbonul, azotul, hidrogenul &#351;i calciul). &#206;n alte galaxii, nebuloasele planetare pot fi singurele obiecte observabile astfel &#238;nc&#226;t s&#259; ofere informa&#355;ii utile despre abunden&#355;ele chimice.
+&#206;n ultimii ani, imaginile ob&#355;inute cu Telescopul Spa&#355;ial Hubble au dezv&#259;luit multe nebuloase planetare cu morfologii extrem de complexe &#351;i variate. Aproximativ o cincime sunt aproape sferice dar majoritatea nu sunt sferic simetrice. Mecanismele care produc o astfel de varietate a formelor &#351;i caracteristicilor nu sunt &#238;nc&#259; bine &#238;n&#355;elese, dar stelele binare centrale, v&#226;nturile solare &#351;i c&#226;mpurile magnetice pot juca un rol.<BR>
+<font    face="Book Antiqua">
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Nebuloasele planetare sunt &#238;n general obiecte neclare ce nu pot fi v&#259;zute cu ochiul liber. Prima nebuloas&#259; planetar&#259; descoperit&#259; a fost Nebuloasa Dumbbell &#238;n constela&#355;ia Vulpecula, observat&#259; de Charles Messier &#238;n 1764 &#351;i listat&#259; ca M27 &#238;n catalogul s&#259;u cu obiecte nebuloase. Pentru primii observatori cu telescoape de rezolu&#355;ie mic&#259;, M27 &#351;i nebuloasele planetare descoperite ulterior sem&#259;nau oarecum cu gigan&#355;ii gazo&#351;i, iar William Herschel, descoperitorul planetei Uranus, a inventat termenul de „nebuloas&#259; planetar&#259;” pentru ei, cu toate c&#259;, a&#351;a cum &#351;tim acum, ele sunt foarte diferite de planete.
+Natura nebuloaselor planetare a fost necunoscut&#259; p&#226;n&#259; la apari&#355;ia primelor observa&#355;ii spectroscopice la mijlocul secolului 19. William Huggins a fost unul dintre primii astronomi care au studiat spectrul optic al obiectelor astronomice folosind o prism&#259; pentru a le dispersa lumina. Observa&#355;iile lui asupra stelelor au ar&#259;tat c&#259; spectrele lor constau dintr-un continuu cu multe linii &#238;ntunecate suprapuse peste ele, afl&#226;nd mai t&#226;rziu c&#259; multe obiecte nebuloase cum ar fi Nebuloasa Andromeda (a&#351;a cum era cunoscut&#259; atunci) au spectre optice foarte similare cu rezultatele observa&#355;iilor sale - s-a ar&#259;tat mai t&#226;rziu c&#259; aceste nebuloase erau de fapt galaxii.
+Cu toate acestea, atunci c&#226;nd s-a uitat la Nebuloasa Ochiul-Pisicii, el a g&#259;sit un spectru foarte diferit. &#206;n schimbul unui continuu puternic cu linii de absorb&#355;ie suprapuse, Nebuloasa Ochiul-Pisicii &#351;i alte obiecte similare aveau un num&#259;r mic de linii de emisie. Cea mai str&#259;lucitoare dintre acestea avea o lungime de und&#259; de 500.7 nanometri, ceea ce nu corespundea cu nici o linie a unui element cunoscut.  La &#238;nceput s-a lansat ipoteza c&#259; linia s-ar datora unui element necunoscut care a fost denumit nebulium - o idee similar&#259; a dus la descoperirea heliului prin analiza spectral&#259; a Soarelui &#238;n 1868.
+
+</td><td><BR><BR><Br><BR><center><a href="https://www.facebook.com/anett991122"><img src="f.png" width="70px"></a href><BR><a href="https://www.instagram.com/v.anett0/?hl=ro"><img src="i.png"width="70px"></a href><BR><a href="https://mg.mail.yahoo.com/neo/launch?.rand=c56ovvmm430bf"><img src="m.jpg"width="70px"></a href><BR><a href="https://myaccount.google.com/?utm_source=OGB&pli=1"><img src="gm.png"width="70px"></a href><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR></td></tr></table>
+</div><!-- ./wrapper -->
+
+    <!-- jQuery 2.1.3 -->
+    <script src="plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <!-- jQuery UI 1.11.2 -->
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>    
+    <!-- Morris.js charts -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="plugins/morris/morris.min.js" type="text/javascript"></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+    <!-- jvectormap -->
+    <script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" type="text/javascript"></script>
+    <script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/knob/jquery.knob.js" type="text/javascript"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+    <!-- datepicker -->
+    <script src="plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+    <!-- iCheck -->
+    <script src="plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+    <!-- Slimscroll -->
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <!-- FastClick -->
+    <script src='plugins/fastclick/fastclick.min.js'></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js" type="text/javascript"></script>
+
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js" type="text/javascript"></script>
+
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js" type="text/javascript"></script>
+<hr width="1200px" color="blue"><center><h3>&#126;&#126;All rights reserved&#169;Vaghy Anett-Copyright 2017&#126;&#126;</h3></center></body>
+</html>
